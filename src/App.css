@@ -1,5 +1,28 @@
 .App {
-  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #7e5d5f;
+}
+
+.App .Header{
+  padding: 10px 5px;
+  display: flex;
+  border-bottom: 1px solid  #5a3232;
+}
+
+.App .Header input{
+  font-family: 'Arial, sans-serif';
+    font-weight: 400;
+    font-size:  24px;
+    color: #4d4d4d;
+    padding-left: 10px;
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+}
+.App .Header input:focus{
+  outline: none;
 }
 
 .App-logo {
@@ -35,4 +58,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App .Footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 5px;
+  position: relative;
+}
+
+.App .Footer div{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+}
+
+.App .Footer input{
+  margin: 3px 3px;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  
+}
+.App .Footer .Active {
+  border: 1px solid #7e5d5f;
+  border-radius: 3px;
+  
+}
+
+.App .Footer span{
+  float: left;
 }
